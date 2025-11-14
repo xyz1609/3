@@ -3,7 +3,7 @@
 import pandas as pd
 import sqlite3 as sq
 # Input Agreement
-sInputFileName = 'C:/Users/hammad/Desktop/MSC IT Part1/Data Science/utility.db'
+sInputFileName = 'utility.db'
 sInputTable = 'Country_Code'
 conn = sq.connect(sInputFileName)
 sSQL = 'select * FROM ' + sInputTable + ';'
@@ -33,6 +33,7 @@ sOutputFileName = 'C:/Users/hammad/Desktop/MSC IT Part1/Data Science/HORUS-CSV-C
 OutputData.to_csv(sOutputFileName, index = False)
 print('Database to HORUS - Done')
 # Utility done
+
 
 
 
