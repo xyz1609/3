@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Input Agreement =============================================================
-sInputFileName='C:/image/img2.jpg'
+sInputFileName=' '
 InputData = plt.imread(sInputFileName)
 
 print('Input Data Values ===================================================')
@@ -35,6 +35,7 @@ sOutputFileName='C:/image/HORUS-Picture.csv'
 OutputData.to_csv(sOutputFileName, index = False)
 print('=====================================================================')
 print('Picture to HORUS - Done')
+
 
 
 
