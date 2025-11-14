@@ -5,7 +5,7 @@ InputFileName = 'IP_DATA_CORE.csv'
 OutputFileName = 'Retrieve_Router_Location.csv'
 
 # Set the base directory path
-Base = 'C:/Users/hammad/Desktop/MSC IT Part1/Data Science'
+Base = ' '
 print('Working Base :', Base, 'using')
 
 # Create full file path for input file
@@ -30,3 +30,4 @@ MeanData = AllData.groupby(['Country', 'Place_Name'])['Latitude'].mean()
 # Display the grouped mean latitude data
 print('Mean Data')
 print(MeanData)
+
