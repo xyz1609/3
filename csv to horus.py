@@ -1,7 +1,7 @@
 # CSV to HORUS ===========================================
 import pandas as pd
 # Input Agreement =========================================
-sInputFileName=' '
+sInputFileName=' /Country_Code.csv'
 InputData=pd.read_csv(sInputFileName,encoding="latin-1")
 print('Input Data Values ================================================')
 print(InputData)
@@ -27,6 +27,7 @@ sOutputFileName='C:/Users/hammad/Desktop/MSC IT Part1/Data Science/HORUS-CSV-Cou
 OutputData.to_csv(sOutputFileName, index = False)
 print('CSV to HORUS - Done')
 # Utility done =============================================
+
 
 
 
