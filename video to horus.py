@@ -2,7 +2,7 @@ import os
 import shutil
 import cv2
 
-video = r"C:/Users/hammad/Desktop/MSC IT Part1/Data Science/nature.mp4"
+video = r"/nature.mp4"
 out_dir = r"C:/VKHCG/05-DS/9999-Data/temp/"
 
 # Clean output folder
@@ -34,3 +34,4 @@ else:
 
 print("Generated:", count, "frames")
 print("=== Done ===")
+
