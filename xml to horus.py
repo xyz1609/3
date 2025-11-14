@@ -8,7 +8,7 @@ def xml_to_df(xml_data):
     return pd.DataFrame(rows)
 
 # --- Read XML File ---
-input_file = r'C:\Users\hammad\Desktop\MSC IT Part1\Data Science\Country_Code.xml'
+input_file = r' \Country_Code.xml'
 with open(input_file, 'r', encoding='utf-8') as f:
     xml_data = f.read()
 
@@ -40,3 +40,4 @@ output_file = r'C:\Users\hammad\Desktop\MSC IT Part1\Data Science\HORUSXML-Count
 df.to_csv(output_file, index=False)
 
 print('============= XML to HORUS - Done =============')
+
