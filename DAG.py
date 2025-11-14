@@ -4,7 +4,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import os, sys
 
-Base = r"C:\Users\hammad\Desktop\MSC IT Part1\Data Science"
+Base = r" "
 Company = r"01-Vermeulen"
 
 print("### Working Base:", Base, "using", sys.platform)
@@ -36,3 +36,4 @@ save_graph(G1, os.path.join(out_dir, "Assess-DAG-Company-Country.png"))
 save_graph(G2, os.path.join(out_dir, "Assess-DAG-Company-Country-Place.png"))
 
 print("### Done!")
+
