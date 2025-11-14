@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load file
-df = pd.read_csv(r"C:/Users/hammad/Desktop/MSC IT Part1/Data Science/IP_DATA_ALL.csv")
+df = pd.read_csv(r"/IP_DATA_ALL.csv")
 
 print("DATA INFO:")
 print(df.info())
@@ -38,3 +38,4 @@ print("Std Dev :", lat.std())
 # Longitude
 print("\nLONGITUDE STATS:")
 print("Std Dev :", df["Longitude"].std())
+
