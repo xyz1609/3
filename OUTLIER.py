@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Paths
-Base = r"C:/Users/hammad/Desktop/MSC IT Part1/Data Science"
+Base = r" "
 print("Working Base:", Base)
 
 df = pd.read_csv(Base + "/IP_DATA_CORE.csv",
@@ -29,3 +29,4 @@ print(LON[LON["Latitude"] < lower])
 
 print("\nNot Outliers:")
 print(LON[(LON["Latitude"] >= lower) & (LON["Latitude"] <= upper)])
+
