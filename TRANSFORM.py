@@ -12,7 +12,7 @@ pd.options.mode.chained_assignment = None
 # ------------------------------------------
 # 1  Base folder setup
 # ------------------------------------------
-Base = r'C:\Users\hammad\Desktop\MSC IT Part1\Data Science'
+Base = r' '
 print('################################')
 print('Working Base:', Base, 'using', sys.platform)
 print('################################')
@@ -116,3 +116,4 @@ PersonFrame.to_sql('dim_person_gunnarsson', engine, if_exists="replace", index=F
 # ------------------------------------------
 print("\nAll transformation steps completed successfully!")
 print("#############################################")
+
