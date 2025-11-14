@@ -3,7 +3,7 @@ import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 
-Base = r"C:\Users\hammad\Desktop\MSC IT Part1\Data Science"
+Base = r""
 Company = r"01-Vermeulen"
 
 f1 = os.path.join(Base, "Retrieve_Country_Code.csv")
@@ -51,3 +51,4 @@ plt.tight_layout()
 plt.show()
 
 print("Done!")
+
