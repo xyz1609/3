@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 # Base directory
-Base = r'C:/Users/hammad/Desktop/MSC IT Part1/Data Science/'
+Base = r' '
 
 # Input file
 input_file = os.path.join(Base, "IP_DATA_ALL.csv")
@@ -40,3 +40,4 @@ output_file = os.path.join(output_dir, "Retrieve_IP_DATA.csv")
 df2.to_csv(output_file, index=True, encoding="latin-1")
 
 print("## Done!! ########################################")
+
