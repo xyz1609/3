@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 # Load file
-file_name = ' '
+file_name = ' /IP_DATA_ALL.csv'
 df = pd.read_csv(file_name, dtype=str, low_memory=False)
 
 # Function to generate pattern
@@ -27,4 +27,5 @@ def make_pattern(s: str) -> str:
 df_patterns=pd.DataFrame({"Country":df["Country"].unique()})
 df_patterns["PatternCountry"]=df_patterns["Country"].apply(make_pattern)
 print(df_patterns.head())
+
 
